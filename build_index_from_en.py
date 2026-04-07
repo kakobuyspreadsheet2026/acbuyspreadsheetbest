@@ -19,52 +19,92 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-# FAQ JSON-LD (must match page messaging; English FAQ count = 9)
+# FAQ JSON-LD — questions and answers must match the visible FAQ on index.html (same order, 9 items).
+# es/pt/pl pages still show English body copy, so their FAQ schema uses English too.
+_EN_FAQ: list[tuple[str, str]] = [
+    (
+        "How many products are in the hub?",
+        "The acbuy spreadsheet hub on MaisonLooks currently surfaces 60,000+ products in curated rows—numbers move as listings are added, merged, or retired.",
+    ),
+    (
+        'Is this the "official" acbuy spreadsheet?',
+        "It is official to our merchant crew, not to ACBuy HQ branding. Policies, coupons, and account safety always come from ACBuy channels.",
+    ),
+    (
+        "Do you store payment info?",
+        "No. acbuyspreadsheetbest.com is static pages plus outbound links. Wallets and cards stay inside ACBuy's PCI environment.",
+    ),
+    (
+        "How often do rows refresh?",
+        "High-churn categories (sneakers, tech) can update weekly; long-tail items may sit longer. Watch News for sweep announcements that affect the acbuy spreadsheet.",
+    ),
+    (
+        "What if two rows list the same URL?",
+        "Usually it is intentional—different notes or QC batches. If it is a mistake, tell us on Discord so we can merge duplicates.",
+    ),
+    (
+        "Dead or hijacked links—now what?",
+        "See the stale links playbook (acbuy-spreadsheet-dead-links.html on this site) for how we tag suspect rows and how to self-check a listing before you pay.",
+    ),
+    (
+        "Shipping math feels off—who do I trust?",
+        "Trust rehearsal measurements inside ACBuy. For theory, read the weight and volumetric primer (acbuy-spreadsheet-shipping-weight.html on this site).",
+    ),
+    (
+        "How do I read QC consistently?",
+        "Follow the warehouse QC walkthrough (acbuy-spreadsheet-qc.html on this site) so you know what to verify before you approve freight.",
+    ),
+    (
+        "Where is the live catalog?",
+        "Jump from the acbuy spreadsheet shortcut (spreadsheet.html on this site) straight into the hub with tracking parameters intact.",
+    ),
+]
+
+_DE_FAQ: list[tuple[str, str]] = [
+    (
+        "Wie viele Produkte hat der Hub?",
+        "Der acbuy-spreadsheet-Hub auf MaisonLooks zeigt aktuell 60.000+ Produkte in kuratierten Zeilen—Zahlen ändern sich mit Angeboten.",
+    ),
+    (
+        "Ist das das „offizielle“ acbuy spreadsheet?",
+        "Offiziell für unser Händlerteam, nicht für ACBuy-HQ-Marketing. Richtlinien, Coupons und Kontosicherheit kommen immer von ACBuy.",
+    ),
+    (
+        "Speichern Sie Zahlungsdaten?",
+        "Nein. acbuyspreadsheetbest.com sind statische Seiten plus Links. Wallet und Karten bleiben in ACBuys PCI-Umfeld.",
+    ),
+    (
+        "Wie oft werden Zeilen aktualisiert?",
+        "Schnelle Kategorien (Sneaker, Tech) wöchentlich; Long-Tail länger. News für Ankündigungen lesen, die das acbuy spreadsheet betreffen.",
+    ),
+    (
+        "Zwei Zeilen mit derselben URL?",
+        "Meist Absicht—unterschiedliche Notizen oder QC-Batches. Irrtum? Auf Discord melden, wir mergen Duplikate.",
+    ),
+    (
+        "Tote oder entführte Links—und jetzt?",
+        "Siehe den Leitfaden zu veralteten Links (acbuy-spreadsheet-dead-links.html auf dieser Site) für Markierungen und Selbstprüfung vor der Zahlung.",
+    ),
+    (
+        "Versandrechnung wirkt falsch—wem vertrauen?",
+        "Messwerte aus Rehearsal in ACBuy vertrauen. Theorie: Gewicht & Volumen (acbuy-spreadsheet-shipping-weight.html auf dieser Site).",
+    ),
+    (
+        "Wie lese ich QC konsistent?",
+        "Siehe den Lager-QC-Walkthrough (acbuy-spreadsheet-qc.html auf dieser Site)—was Sie vor Freigabe prüfen sollten.",
+    ),
+    (
+        "Wo ist der Live-Katalog?",
+        "Vom acbuy spreadsheet shortcut (spreadsheet.html auf dieser Site) direkt in den Hub mit Tracking-Parametern.",
+    ),
+]
+
 FAQ = {
-    "de": [
-        ("Wie viele Produkte gibt es im acbuy-spreadsheet-Hub?", "Der Live-Hub auf MaisonLooks führt aktuell 60.000+ Produkte in kuratierten Zeilen—Zahlen ändern sich, wenn Anbieter Listings hinzufügen oder entfernen."),
-        ('Was bedeutet „acbuy spreadsheet“ auf dieser Seite?', "Damit ist unser von Händlern gepflegter Hub mit 60.000+ Produkten gemeint—Marktplatz-Links zum schnellen Scannen—mit Hinweisen zu Preisen und QC, wo wir sie haben. Bestellen tun Sie weiter in ACBuy."),
-        ("Wer pflegt dieses acbuy spreadsheet?", "Von ACBuy registrierte Händler pflegen die Zeilen. acbuyspreadsheetbest.com hostet nur Leitfäden und Einstiege; es werden keine Zahlungen verarbeitet und kein Warenkorb gespeichert."),
-        ("Ist acbuyspreadsheetbest.com die offizielle ACBuy-Website?", "Nein. Für Konto, Erstattungen und Richtlinien gelten die offiziellen ACBuy-Kanäle."),
-        ("Wie komme ich von der Tabelle zum Paket?", "Zeilen im Hub vormerken, funktionierende Produkt-URL kopieren, in ACBuy einreichen, auf Lagerfotos warten, freigeben oder umtauschen, dann die internationale Linie wählen."),
-        ("Warum unterscheiden sich Verkäufer-QC und Lager-QC?", "Verkäuferfotos können Marketing sein. Lagerfotos entstehen beim Agenten—darauf sollten Sie sich vor dem internationalen Versand verlassen."),
-        ("Kann ich auf acbuyspreadsheetbest.com bezahlen?", "Nein. Diese Domain ist informativ. Wallet, Bestellungen und Paket-Tools bleiben bei ACBuy."),
-        ("Wo melde ich eine defekte Tabellenzeile?", "Discord für Community-Hilfe bei veralteten Links. Abrechnung und Tickets laufen über ACBuy."),
-        ("Wie werden internationale Versandkosten geschätzt?", "Tabellenzellen können grobe Gewichts- oder Kostenhinweise zeigen; Abrechnung erfolgt nach Packgewicht und Volumenregeln. Nach Rehearsal in ACBuy prüfen."),
-    ],
-    "es": [
-        ("¿Cuántos productos hay en el hub acbuy spreadsheet?", "El hub en vivo en MaisonLooks lista actualmente más de 60.000 productos en filas curadas: las cifras cambian cuando los vendedores añaden o quitan anuncios."),
-        ('¿Qué significa «acbuy spreadsheet» en este sitio?', "Se refiere a nuestro hub mantenido por comerciantes con más de 60.000 productos—enlaces de marketplace para escanear rápido—con notas de precio y QC cuando las tenemos. El pedido sigue en ACBuy."),
-        ("¿Quién mantiene este acbuy spreadsheet?", "Comerciantes registrados en ACBuy mantienen las filas. acbuyspreadsheetbest.com solo aloja guías y puntos de entrada; no cobra ni guarda tu carrito."),
-        ("¿Es acbuyspreadsheetbest.com el sitio oficial de ACBuy?", "No. Para cuenta, reembolsos y políticas, usa los canales oficiales de ACBuy."),
-        ("¿Cómo paso de la hoja al paquete?", "Preselecciona filas en el hub, copia una URL de producto válida, envíala en ACBuy, espera fotos de almacén, aprueba o cambia, luego elige la línea internacional."),
-        ("¿Por qué difieren el QC del vendedor y el del almacén?", "Las fotos del vendedor pueden ser marketing. Las del almacén son bajo la luz del agente—úsalas antes de enviar internacional."),
-        ("¿Puedo pagar en acbuyspreadsheetbest.com?", "No. Este dominio es informativo. Wallet, pedidos y herramientas de paquete están en ACBuy."),
-        ("¿Dónde reporto una fila rota?", "Discord para ayuda comunitaria con enlaces viejos. Facturación y tickets van con ACBuy."),
-        ("¿Cómo se estima el envío internacional?", "Las celdas pueden mostrar peso o coste aproximados; los transportistas cobran por peso empacado y reglas volumétricas. Confirma tras el rehearsal en ACBuy."),
-    ],
-    "pt": [
-        ("Quantos produtos há no hub acbuy spreadsheet?", "O hub em direto na MaisonLooks lista atualmente mais de 60 000 produtos em linhas curadas—os números mudam quando os vendedores adicionam ou removem anúncios."),
-        ('O que significa «acbuy spreadsheet» neste site?', "É o nosso hub mantido por comerciantes com mais de 60 000 produtos—ligações de marketplace para leitura rápida—notas de preço e QC quando existem. A encomenda continua na ACBuy."),
-        ("Quem mantém este acbuy spreadsheet?", "Comerciantes registados na ACBuy mantêm as linhas. acbuyspreadsheetbest.com apenas aloja guias e entradas; não processa pagamentos nem guarda o carrinho."),
-        ("acbuyspreadsheetbest.com é o site oficial da ACBuy?", "Não. Para conta, reembolsos e políticas, use os canais oficiais da ACBuy."),
-        ("Como passo da folha ao pacote?", "Pré-selecione linhas no hub, copie um URL de produto válido, submeta na ACBuy, espere fotos de armazém, aprove ou troque, depois escolha a linha internacional."),
-        ("Porque é que o QC do vendedor e do armazém diferem?", "As fotos do vendedor podem ser marketing. As do armazém são com a luz do agente—use-as antes do envio internacional."),
-        ("Posso pagar em acbuyspreadsheetbest.com?", "Não. Este domínio é informativo. Carteira, encomendas e ferramentas de envio ficam na ACBuy."),
-        ("Onde reporto uma linha partida?", "Discord para ajuda comunitária com links antigos. Faturação e tickets são na ACBuy."),
-        ("Como são estimados portes internacionais?", "As células podem mostrar peso ou custo indicativo; as transportadoras faturam pelo peso embalado e regras volumétricas. Confirme após rehearsal na ACBuy."),
-    ],
-    "pl": [
-        ("Ile produktów jest w hubie acbuy spreadsheet?", "Żywy hub na MaisonLooks ma obecnie 60 000+ produktów w kuratorowanych wierszach—liczby zmieniają się, gdy sprzedawcy dodają lub usuwają oferty."),
-        ('Co oznacza „acbuy spreadsheet” na tej stronie?', "Chodzi o nasz hub prowadzony przez sprzedawców z 60 000+ produktami—linki do marketplace pod szybki przegląd—noty o cenie i QC, gdy je mamy. Zamówienie składasz w ACBuy."),
-        ("Kto prowadzi ten acbuy spreadsheet?", "Sprzedawcy zarejestrowani w ACBuy utrzymują wiersze. acbuyspreadsheetbest.com hostuje tylko przewodniki i wejścia; nie pobiera płatności ani nie trzyma koszyka."),
-        ("Czy acbuyspreadsheetbest.com to oficjalna strona ACBuy?", "Nie. Konto, zwroty i polityki—tylko oficjalne kanały ACBuy."),
-        ("Jak przejść z arkusza do paczki?", "Wybierz wiersze w hubie, skopiuj działający URL produktu, złóż w ACBuy, poczekaj na zdjęcia magazynowe, zaakceptuj lub wymień, potem wybierz linię międzynarodową."),
-        ("Czemu QC sprzedawcy i magazynu się różnią?", "Zdjęcia sprzedawcy mogą być marketingiem. Magazynowe robi agent—na nich polegaj przed wysyłką międzynarodową."),
-        ("Czy mogę zapłacić na acbuyspreadsheetbest.com?", "Nie. Ta domena jest informacyjna. Portfel, zamówienia i narzędzia przesyłek są w ACBuy."),
-        ("Gdzie zgłosić zepsuty wiersz?", "Discord przy problemach ze starymi linkami. Rozliczenia i tickety—ACBuy."),
-        ("Jak szacuje się koszty wysyłki międzynarodowej?", "Komórki mogą pokazywać orientacyjnie wagę lub koszt; przewoźnicy rozliczają wagę po pakowaniu i reguły kubaturowe. Potwierdź po rehearsal w ACBuy."),
-    ],
+    "en": _EN_FAQ,
+    "de": _DE_FAQ,
+    "es": _EN_FAQ,
+    "pt": _EN_FAQ,
+    "pl": _EN_FAQ,
 }
 
 
@@ -118,6 +158,14 @@ def replace_faq_block(html: str, lang: str) -> str:
     m = scripts[1]
     new_block = f'<script type="application/ld+json">\n      {faq_json_ld(lang)}\n    </script>'
     return html[: m.start()] + new_block + html[m.end() :]
+
+
+def refresh_root_index_faq() -> None:
+    """Keep English index.html FAQ JSON-LD in sync with visible FAQ (source of truth: FAQ['en'])."""
+    path = ROOT / "index.html"
+    html = path.read_text(encoding="utf-8")
+    path.write_text(replace_faq_block(html, "en"), encoding="utf-8")
+    print("refreshed", path, "FAQ JSON-LD")
 
 
 LANG_MENUS = {
@@ -463,6 +511,7 @@ def build_locale_fallback_en_body(lang: str) -> None:
 
 
 if __name__ == "__main__":
+    refresh_root_index_faq()
     build_locale("de")
     for loc in ("es", "pt", "pl"):
         build_locale_fallback_en_body(loc)

@@ -187,6 +187,7 @@ def build_subpage(basename: str, lang: str) -> None:
 
 
 def main() -> None:
+    idx.refresh_root_index_faq()
     idx.build_locale("de")
     for loc in ("es", "pt", "pl"):
         idx.build_locale_fallback_en_body(loc)
