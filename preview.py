@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Serve acbuyai static site locally and open the browser."""
+"""Serve acbuyspreadsheetbest static site locally and open the browser."""
 
 from __future__ import annotations
 

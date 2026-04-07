@@ -24,44 +24,44 @@ FAQ = {
     "de": [
         ("Wie viele Produkte gibt es im acbuy-spreadsheet-Hub?", "Der Live-Hub auf MaisonLooks führt aktuell 60.000+ Produkte in kuratierten Zeilen—Zahlen ändern sich, wenn Anbieter Listings hinzufügen oder entfernen."),
         ('Was bedeutet „acbuy spreadsheet“ auf dieser Seite?', "Damit ist unser von Händlern gepflegter Hub mit 60.000+ Produkten gemeint—Marktplatz-Links zum schnellen Scannen—mit Hinweisen zu Preisen und QC, wo wir sie haben. Bestellen tun Sie weiter in ACBuy."),
-        ("Wer pflegt dieses acbuy spreadsheet?", "Von ACBuy registrierte Händler pflegen die Zeilen. acbuyai.com hostet nur Leitfäden und Einstiege; es werden keine Zahlungen verarbeitet und kein Warenkorb gespeichert."),
-        ("Ist acbuyai.com die offizielle ACBuy-Website?", "Nein. Für Konto, Erstattungen und Richtlinien gelten die offiziellen ACBuy-Kanäle."),
+        ("Wer pflegt dieses acbuy spreadsheet?", "Von ACBuy registrierte Händler pflegen die Zeilen. acbuyspreadsheetbest.com hostet nur Leitfäden und Einstiege; es werden keine Zahlungen verarbeitet und kein Warenkorb gespeichert."),
+        ("Ist acbuyspreadsheetbest.com die offizielle ACBuy-Website?", "Nein. Für Konto, Erstattungen und Richtlinien gelten die offiziellen ACBuy-Kanäle."),
         ("Wie komme ich von der Tabelle zum Paket?", "Zeilen im Hub vormerken, funktionierende Produkt-URL kopieren, in ACBuy einreichen, auf Lagerfotos warten, freigeben oder umtauschen, dann die internationale Linie wählen."),
         ("Warum unterscheiden sich Verkäufer-QC und Lager-QC?", "Verkäuferfotos können Marketing sein. Lagerfotos entstehen beim Agenten—darauf sollten Sie sich vor dem internationalen Versand verlassen."),
-        ("Kann ich auf acbuyai.com bezahlen?", "Nein. Diese Domain ist informativ. Wallet, Bestellungen und Paket-Tools bleiben bei ACBuy."),
+        ("Kann ich auf acbuyspreadsheetbest.com bezahlen?", "Nein. Diese Domain ist informativ. Wallet, Bestellungen und Paket-Tools bleiben bei ACBuy."),
         ("Wo melde ich eine defekte Tabellenzeile?", "Discord für Community-Hilfe bei veralteten Links. Abrechnung und Tickets laufen über ACBuy."),
         ("Wie werden internationale Versandkosten geschätzt?", "Tabellenzellen können grobe Gewichts- oder Kostenhinweise zeigen; Abrechnung erfolgt nach Packgewicht und Volumenregeln. Nach Rehearsal in ACBuy prüfen."),
     ],
     "es": [
         ("¿Cuántos productos hay en el hub acbuy spreadsheet?", "El hub en vivo en MaisonLooks lista actualmente más de 60.000 productos en filas curadas: las cifras cambian cuando los vendedores añaden o quitan anuncios."),
         ('¿Qué significa «acbuy spreadsheet» en este sitio?', "Se refiere a nuestro hub mantenido por comerciantes con más de 60.000 productos—enlaces de marketplace para escanear rápido—con notas de precio y QC cuando las tenemos. El pedido sigue en ACBuy."),
-        ("¿Quién mantiene este acbuy spreadsheet?", "Comerciantes registrados en ACBuy mantienen las filas. acbuyai.com solo aloja guías y puntos de entrada; no cobra ni guarda tu carrito."),
-        ("¿Es acbuyai.com el sitio oficial de ACBuy?", "No. Para cuenta, reembolsos y políticas, usa los canales oficiales de ACBuy."),
+        ("¿Quién mantiene este acbuy spreadsheet?", "Comerciantes registrados en ACBuy mantienen las filas. acbuyspreadsheetbest.com solo aloja guías y puntos de entrada; no cobra ni guarda tu carrito."),
+        ("¿Es acbuyspreadsheetbest.com el sitio oficial de ACBuy?", "No. Para cuenta, reembolsos y políticas, usa los canales oficiales de ACBuy."),
         ("¿Cómo paso de la hoja al paquete?", "Preselecciona filas en el hub, copia una URL de producto válida, envíala en ACBuy, espera fotos de almacén, aprueba o cambia, luego elige la línea internacional."),
         ("¿Por qué difieren el QC del vendedor y el del almacén?", "Las fotos del vendedor pueden ser marketing. Las del almacén son bajo la luz del agente—úsalas antes de enviar internacional."),
-        ("¿Puedo pagar en acbuyai.com?", "No. Este dominio es informativo. Wallet, pedidos y herramientas de paquete están en ACBuy."),
+        ("¿Puedo pagar en acbuyspreadsheetbest.com?", "No. Este dominio es informativo. Wallet, pedidos y herramientas de paquete están en ACBuy."),
         ("¿Dónde reporto una fila rota?", "Discord para ayuda comunitaria con enlaces viejos. Facturación y tickets van con ACBuy."),
         ("¿Cómo se estima el envío internacional?", "Las celdas pueden mostrar peso o coste aproximados; los transportistas cobran por peso empacado y reglas volumétricas. Confirma tras el rehearsal en ACBuy."),
     ],
     "pt": [
         ("Quantos produtos há no hub acbuy spreadsheet?", "O hub em direto na MaisonLooks lista atualmente mais de 60 000 produtos em linhas curadas—os números mudam quando os vendedores adicionam ou removem anúncios."),
         ('O que significa «acbuy spreadsheet» neste site?', "É o nosso hub mantido por comerciantes com mais de 60 000 produtos—ligações de marketplace para leitura rápida—notas de preço e QC quando existem. A encomenda continua na ACBuy."),
-        ("Quem mantém este acbuy spreadsheet?", "Comerciantes registados na ACBuy mantêm as linhas. acbuyai.com apenas aloja guias e entradas; não processa pagamentos nem guarda o carrinho."),
-        ("acbuyai.com é o site oficial da ACBuy?", "Não. Para conta, reembolsos e políticas, use os canais oficiais da ACBuy."),
+        ("Quem mantém este acbuy spreadsheet?", "Comerciantes registados na ACBuy mantêm as linhas. acbuyspreadsheetbest.com apenas aloja guias e entradas; não processa pagamentos nem guarda o carrinho."),
+        ("acbuyspreadsheetbest.com é o site oficial da ACBuy?", "Não. Para conta, reembolsos e políticas, use os canais oficiais da ACBuy."),
         ("Como passo da folha ao pacote?", "Pré-selecione linhas no hub, copie um URL de produto válido, submeta na ACBuy, espere fotos de armazém, aprove ou troque, depois escolha a linha internacional."),
         ("Porque é que o QC do vendedor e do armazém diferem?", "As fotos do vendedor podem ser marketing. As do armazém são com a luz do agente—use-as antes do envio internacional."),
-        ("Posso pagar em acbuyai.com?", "Não. Este domínio é informativo. Carteira, encomendas e ferramentas de envio ficam na ACBuy."),
+        ("Posso pagar em acbuyspreadsheetbest.com?", "Não. Este domínio é informativo. Carteira, encomendas e ferramentas de envio ficam na ACBuy."),
         ("Onde reporto uma linha partida?", "Discord para ajuda comunitária com links antigos. Faturação e tickets são na ACBuy."),
         ("Como são estimados portes internacionais?", "As células podem mostrar peso ou custo indicativo; as transportadoras faturam pelo peso embalado e regras volumétricas. Confirme após rehearsal na ACBuy."),
     ],
     "pl": [
         ("Ile produktów jest w hubie acbuy spreadsheet?", "Żywy hub na MaisonLooks ma obecnie 60 000+ produktów w kuratorowanych wierszach—liczby zmieniają się, gdy sprzedawcy dodają lub usuwają oferty."),
         ('Co oznacza „acbuy spreadsheet” na tej stronie?', "Chodzi o nasz hub prowadzony przez sprzedawców z 60 000+ produktami—linki do marketplace pod szybki przegląd—noty o cenie i QC, gdy je mamy. Zamówienie składasz w ACBuy."),
-        ("Kto prowadzi ten acbuy spreadsheet?", "Sprzedawcy zarejestrowani w ACBuy utrzymują wiersze. acbuyai.com hostuje tylko przewodniki i wejścia; nie pobiera płatności ani nie trzyma koszyka."),
-        ("Czy acbuyai.com to oficjalna strona ACBuy?", "Nie. Konto, zwroty i polityki—tylko oficjalne kanały ACBuy."),
+        ("Kto prowadzi ten acbuy spreadsheet?", "Sprzedawcy zarejestrowani w ACBuy utrzymują wiersze. acbuyspreadsheetbest.com hostuje tylko przewodniki i wejścia; nie pobiera płatności ani nie trzyma koszyka."),
+        ("Czy acbuyspreadsheetbest.com to oficjalna strona ACBuy?", "Nie. Konto, zwroty i polityki—tylko oficjalne kanały ACBuy."),
         ("Jak przejść z arkusza do paczki?", "Wybierz wiersze w hubie, skopiuj działający URL produktu, złóż w ACBuy, poczekaj na zdjęcia magazynowe, zaakceptuj lub wymień, potem wybierz linię międzynarodową."),
         ("Czemu QC sprzedawcy i magazynu się różnią?", "Zdjęcia sprzedawcy mogą być marketingiem. Magazynowe robi agent—na nich polegaj przed wysyłką międzynarodową."),
-        ("Czy mogę zapłacić na acbuyai.com?", "Nie. Ta domena jest informacyjna. Portfel, zamówienia i narzędzia przesyłek są w ACBuy."),
+        ("Czy mogę zapłacić na acbuyspreadsheetbest.com?", "Nie. Ta domena jest informacyjna. Portfel, zamówienia i narzędzia przesyłek są w ACBuy."),
         ("Gdzie zgłosić zepsuty wiersz?", "Discord przy problemach ze starymi linkami. Rozliczenia i tickety—ACBuy."),
         ("Jak szacuje się koszty wysyłki międzynarodowej?", "Komórki mogą pokazywać orientacyjnie wagę lub koszt; przewoźnicy rozliczają wagę po pakowaniu i reguły kubaturowe. Potwierdź po rehearsal w ACBuy."),
     ],
@@ -83,28 +83,28 @@ def faq_json_ld(lang: str) -> str:
 
 
 def mechanical(html: str, lang: str) -> str:
-    base = f"https://acbuyai.com/{lang}/"
+    base = f"https://acbuyspreadsheetbest.com/{lang}/"
     html = html.replace('<html lang="en">', f'<html lang="{lang}">')
     html = html.replace('href="styles.css"', 'href="../styles.css"')
     html = html.replace('href="images/', 'href="../images/')
     html = html.replace('src="images/', 'src="../images/')
     # BS4 may reorder attributes; match canonical / og:url regardless of order
     html = re.sub(
-        r'<link\b[^>]*(?:\bhref="https://acbuyai\.com/"[^>]*\brel="canonical"|\brel="canonical"[^>]*\bhref="https://acbuyai\.com/")[^>]*\/?>',
+        r'<link\b[^>]*(?:\bhref="https://acbuyspreadsheetbest\.com/"[^>]*\brel="canonical"|\brel="canonical"[^>]*\bhref="https://acbuyspreadsheetbest\.com/")[^>]*\/?>',
         f'<link rel="canonical" href="{base}" />',
         html,
         count=1,
     )
     html = re.sub(
-        r'<meta\b[^>]*(?:\bcontent="https://acbuyai\.com/"[^>]*\bproperty="og:url"|\bproperty="og:url"[^>]*\bcontent="https://acbuyai\.com/")[^>]*\/?>',
+        r'<meta\b[^>]*(?:\bcontent="https://acbuyspreadsheetbest\.com/"[^>]*\bproperty="og:url"|\bproperty="og:url"[^>]*\bcontent="https://acbuyspreadsheetbest\.com/")[^>]*\/?>',
         f'<meta property="og:url" content="{base}" />',
         html,
         count=1,
     )
-    html = html.replace('"@id": "https://acbuyai.com/#website"', f'"@id": "{base}#website"')
-    html = html.replace('"@id": "https://acbuyai.com/#org"', f'"@id": "{base}#org"')
-    html = html.replace('"publisher": { "@id": "https://acbuyai.com/#org" }', f'"publisher": {{ "@id": "{base}#org" }}')
-    html = html.replace('"url": "https://acbuyai.com/"', f'"url": "{base}"')
+    html = html.replace('"@id": "https://acbuyspreadsheetbest.com/#website"', f'"@id": "{base}#website"')
+    html = html.replace('"@id": "https://acbuyspreadsheetbest.com/#org"', f'"@id": "{base}#org"')
+    html = html.replace('"publisher": { "@id": "https://acbuyspreadsheetbest.com/#org" }', f'"publisher": {{ "@id": "{base}#org" }}')
+    html = html.replace('"url": "https://acbuyspreadsheetbest.com/"', f'"url": "{base}"')
     html = html.replace('<a class="brand" href="/"', f'<a class="brand" href="/{lang}/"')
     return html
 
@@ -183,8 +183,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Shirts &amp; kits", "Shirts &amp; Kits"),
         ("Mixed / seasonal", "Gemischt / saisonal"),
         (
-            "acbuy spreadsheet 2026 | 60,000+ products — curated finds for ACBuy | acbuyai.com",
-            "acbuy spreadsheet 2026 | 60.000+ Produkte — kuratierte Funde für ACBuy | acbuyai.com",
+            "acbuy spreadsheet 2026 | 60,000+ products — curated finds for ACBuy | acbuyspreadsheetbest.com",
+            "acbuy spreadsheet 2026 | 60.000+ Produkte — kuratierte Funde für ACBuy | acbuyspreadsheetbest.com",
         ),
         (
             "acbuy spreadsheet with 60,000+ products: merchant-curated Taobao, Weidian &amp; 1688 links and QC context—browse the hub on MaisonLooks, then pay and ship in your ACBuy account. Independent site, not ACBuy corporate.",
@@ -230,12 +230,12 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Batch &amp; note fields", "Batch- &amp; Notizfelder"),
         ("Warehouse QC still on ACBuy", "Lager-QC bleibt bei ACBuy"),
         (
-            "Think of the <strong>acbuy spreadsheet</strong> as a filter on noisy marketplace search: the hub lists\n            <strong>60,000+ products</strong> in rotating rows—tightened, tagged, and occasionally refreshed when sellers\n            swap batches. We surface context so you can shortlist faster—then you paste the winning URL into\n            <strong>ACBuy</strong> for payment, inspection, and shipping. Nothing on acbuyai.com replaces your ACBuy\n            wallet or tickets.",
-            "Das <strong>acbuy spreadsheet</strong> filtert lauten Marktplatz-Suchlärm: Der Hub listet <strong>60.000+ Produkte</strong> in rotierenden Zeilen—gestrafft, getaggt, gelegentlich aktualisiert, wenn Verkäufer Batches wechseln. Wir liefern Kontext für eine schnellere Vorauswahl—dann fügen Sie die gewählte URL in <strong>ACBuy</strong> für Zahlung, Inspektion und Versand ein. Nichts auf acbuyai.com ersetzt Ihr ACBuy-Wallet oder Tickets.",
+            "Think of the <strong>acbuy spreadsheet</strong> as a filter on noisy marketplace search: the hub lists\n            <strong>60,000+ products</strong> in rotating rows—tightened, tagged, and occasionally refreshed when sellers\n            swap batches. We surface context so you can shortlist faster—then you paste the winning URL into\n            <strong>ACBuy</strong> for payment, inspection, and shipping. Nothing on acbuyspreadsheetbest.com replaces your ACBuy\n            wallet or tickets.",
+            "Das <strong>acbuy spreadsheet</strong> filtert lauten Marktplatz-Suchlärm: Der Hub listet <strong>60.000+ Produkte</strong> in rotierenden Zeilen—gestrafft, getaggt, gelegentlich aktualisiert, wenn Verkäufer Batches wechseln. Wir liefern Kontext für eine schnellere Vorauswahl—dann fügen Sie die gewählte URL in <strong>ACBuy</strong> für Zahlung, Inspektion und Versand ein. Nichts auf acbuyspreadsheetbest.com ersetzt Ihr ACBuy-Wallet oder Tickets.",
         ),
         (
-            "Disclosure: acbuyai.com is an independent marketing front for our acbuy spreadsheet—not ACBuy corporate.",
-            "Hinweis: acbuyai.com ist ein unabhängiges Marketing-Frontend für unser acbuy spreadsheet—nicht ACBuy Konzern.",
+            "Disclosure: acbuyspreadsheetbest.com is an independent marketing front for our acbuy spreadsheet—not ACBuy corporate.",
+            "Hinweis: acbuyspreadsheetbest.com ist ein unabhängiges Marketing-Frontend für unser acbuy spreadsheet—nicht ACBuy Konzern.",
         ),
         ("Snapshot", "Kurzüberblick"),
         ("Lanes", "Spuren"),
@@ -245,8 +245,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "Es ist eine <strong>von Händlern gepflegte Link-Tabelle</strong> mit <strong>60.000+ Produkten</strong> für alle, die <strong>ACBuy</strong> schon nutzen oder testen wollen: Jede Zeile verbindet meist Marktplatz-URL, Preiskontext und optionale QC-Schnappschüsse—so vergleichen Sie Verkäufer ohne fünfzehn Taobao-Tabs.",
         ),
         (
-            "acbuyai.com explains how to read those rows responsibly. When you are ready to commit, every yuan still\n              flows through <strong>ACBuy’s checkout</strong>—we never touch your card or balance.",
-            "acbuyai.com erklärt, wie man diese Zeilen verantwortlich liest. Wenn Sie kaufen: Jedes Yuan läuft über <strong>ACBuys Checkout</strong>—wir berühren weder Karte noch Guthaben.",
+            "acbuyspreadsheetbest.com explains how to read those rows responsibly. When you are ready to commit, every yuan still\n              flows through <strong>ACBuy’s checkout</strong>—we never touch your card or balance.",
+            "acbuyspreadsheetbest.com erklärt, wie man diese Zeilen verantwortlich liest. Wenn Sie kaufen: Jedes Yuan läuft über <strong>ACBuys Checkout</strong>—wir berühren weder Karte noch Guthaben.",
         ),
         ("At a glance", "Auf einen Blick"),
         ("<strong>Official ACBuy site?</strong> No—this is a companion.", "<strong>Offizielle ACBuy-Seite?</strong> Nein—dies ist eine Begleitseite."),
@@ -284,8 +284,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "Bei <strong>60.000+ Produkten</strong> und steigend verbinden <strong>acbuy spreadsheet</strong>-Zeilen <strong>Taobao, Weidian und 1688</strong> mit menschlichen Notizen: ein lebendes Notizbuch zu Preisdrift, Verkäufer-Eigenheiten und QC-Hinweisen aus der Community.",
         ),
         (
-            "<strong>ACBuy</strong> still owns the purchase path—domestic freight, warehouse photos, rehearsal, and\n            international labels all live in your account. On acbuyai.com we layer <strong>acbuy spreadsheet</strong>\n            context; on ACBuy you pay, rehearse, and ship.",
-            "<strong>ACBuy</strong> führt den Kaufweg—Inlandsfracht, Lagerfotos, Rehearsal und internationale Labels liegen in Ihrem Konto. Auf acbuyai.com liefern wir <strong>acbuy spreadsheet</strong>-Kontext; in ACBuy zahlen Sie, proben und versenden.",
+            "<strong>ACBuy</strong> still owns the purchase path—domestic freight, warehouse photos, rehearsal, and\n            international labels all live in your account. On acbuyspreadsheetbest.com we layer <strong>acbuy spreadsheet</strong>\n            context; on ACBuy you pay, rehearse, and ship.",
+            "<strong>ACBuy</strong> führt den Kaufweg—Inlandsfracht, Lagerfotos, Rehearsal und internationale Labels liegen in Ihrem Konto. Auf acbuyspreadsheetbest.com liefern wir <strong>acbuy spreadsheet</strong>-Kontext; in ACBuy zahlen Sie, proben und versenden.",
         ),
         ("Fields you will commonly see", "Felder, die Sie oft sehen"),
         ("Plain-language title + link integrity check", "Klartitel + Link-Integrität"),
@@ -324,7 +324,7 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "Wir sind keine Fabrik—Versand durch Verkäufer nicht garantiert. Wir versprechen transparente Tags und schnelle Infos, wenn Zeilen brechen.",
         ),
         ("No fake “official” badges", "Keine falschen „offiziell“-Siegel"),
-        ("No checkout on acbuyai.com", "Kein Checkout auf acbuyai.com"),
+        ("No checkout on acbuyspreadsheetbest.com", "Kein Checkout auf acbuyspreadsheetbest.com"),
         ("Clear separation from ACBuy HQ policies", "Klare Trennung von ACBuy-HQ-Richtlinien"),
         ("Encouragement to read warehouse photos cold", "Bitte Lagerfotos nüchtern lesen"),
         ("Reminders that duties are yours to research", "Erinnerung: Zoll recherchieren Sie selbst"),
@@ -372,8 +372,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ),
         ("Do you store payment info?", "Speichern Sie Zahlungsdaten?"),
         (
-            "No. acbuyai.com is static pages plus outbound links. Wallets and cards stay inside ACBuy’s PCI environment.",
-            "Nein. acbuyai.com sind statische Seiten plus Links. Wallet und Karten bleiben in ACBuys PCI-Umfeld.",
+            "No. acbuyspreadsheetbest.com is static pages plus outbound links. Wallets and cards stay inside ACBuy’s PCI environment.",
+            "Nein. acbuyspreadsheetbest.com sind statische Seiten plus Links. Wallet und Karten bleiben in ACBuys PCI-Umfeld.",
         ),
         ("How often do rows refresh?", "Wie oft werden Zeilen aktualisiert?"),
         (
@@ -411,8 +411,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "ACBuy-Login, MaisonLooks-Hub hinter dem <strong>acbuy spreadsheet</strong> öffnen, einen Link mitbringen, dem Sie vertrauen—dann entscheidet das Lager-QC.",
         ),
         (
-            "acbuyai.com publishes field notes, lane links, and QC explainers for shoppers who rely on an\n            <strong>acbuy spreadsheet</strong> (hub: <strong>60,000+ products</strong>). We do not sell inventory, store\n            balances, or speak for ACBuy corporate policies.",
-            "acbuyai.com veröffentlicht Feldnotizen, Spur-Links und QC-Erklärungen für Nutzer eines <strong>acbuy spreadsheet</strong> (Hub: <strong>60.000+ Produkte</strong>). Wir verkaufen kein Inventar, halten keine Guthaben und sprechen nicht für ACBuy-Konzernrichtlinien.",
+            "acbuyspreadsheetbest.com publishes field notes, lane links, and QC explainers for shoppers who rely on an\n            <strong>acbuy spreadsheet</strong> (hub: <strong>60,000+ products</strong>). We do not sell inventory, store\n            balances, or speak for ACBuy corporate policies.",
+            "acbuyspreadsheetbest.com veröffentlicht Feldnotizen, Spur-Links und QC-Erklärungen für Nutzer eines <strong>acbuy spreadsheet</strong> (Hub: <strong>60.000+ Produkte</strong>). Wir verkaufen kein Inventar, halten keine Guthaben und sprechen nicht für ACBuy-Konzernrichtlinien.",
         ),
         (
             "<strong>You are responsible for import rules, duties, and final purchase decisions.</strong> When in doubt,\n            screenshot warehouse photos and open a ticket inside ACBuy.",

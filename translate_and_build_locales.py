@@ -52,7 +52,7 @@ SEO_PRIMARY_KEYWORD = "acbuy spreadsheet"
 # Longest first — protect before MT
 PROTECT_TERMS: tuple[tuple[str, str], ...] = (
     (SEO_PRIMARY_KEYWORD, "\uE000ACBUYSS\uE001"),
-    ("acbuyai.com", "\uE000ACBUYAI\uE001"),
+    ("acbuyspreadsheetbest.com", "\uE000ACBUYAI\uE001"),
     ("MaisonLooks", "\uE000ML\uE001"),
     ("ACBuy official", "\uE000ACBO\uE001"),
     ("ACBuy", "\uE000ACBUY\uE001"),
@@ -102,7 +102,7 @@ _INNER_EXACT: dict[str, str] = {
     "ACBUY": "ACBuy",
     "ACBO": "ACBuy official",
     "ACBUYSS": SEO_PRIMARY_KEYWORD,
-    "ACBUYAI": "acbuyai.com",
+    "ACBUYAI": "acbuyspreadsheetbest.com",
     "ACBUYL": "acbuy",
     "ML": "MaisonLooks",
     "TB": "Taobao",
@@ -121,7 +121,7 @@ _INNER_EXACT: dict[str, str] = {
 # MT-corrupted inners (Polish and other locales) → canonical
 _INNER_MANGLED: dict[str, str] = {
     "AKUP": SEO_PRIMARY_KEYWORD,
-    "AKBUYAI": "acbuyai.com",
+    "AKBUYAI": "acbuyspreadsheetbest.com",
     "AKUPACH": SEO_PRIMARY_KEYWORD,
     "AKUPOWANIA": SEO_PRIMARY_KEYWORD,
     "AKUPAMI": SEO_PRIMARY_KEYWORD,
@@ -155,13 +155,13 @@ def repair_protected_tokens(s: str) -> str:
     s = re.sub(r"(?<![A-Za-z])ACBUYSS(?![A-Za-z])", SEO_PRIMARY_KEYWORD, s)
     # Logo alt: MT turns "acbuy" into local verb (e.g. pl "kupić")
     s = re.sub(r'(?i)\balt="kupić"', 'alt="acbuy"', s)
-    s = re.sub(r">Acbuyai<", ">acbuyai<", s)
-    s = s.replace('"Acbuyai"', '"acbuyai"')
+    s = re.sub(r">Acbuyai<", ">acbuyspreadsheetbest<", s)
+    s = s.replace('"Acbuyai"', '"acbuyspreadsheetbest"')
     # MT turned "acbuy spreadsheet rhythm" into bogus Polish noun in quotes
     s = s.replace("\u201eAKUPOWANIA\u201d", "\u201e" + SEO_PRIMARY_KEYWORD + "\u201d")
     # Glued word after MT (pl news title)
     s = s.replace("spreadsheetaktualności", "spreadsheet aktualności")
-    s = re.sub(r"\bAcbuyai\b", "acbuyai", s)
+    s = re.sub(r"\bAcbuyai\b", "acbuyspreadsheetbest", s)
     # Normalize any casing drift of the two-word SEO phrase (e.g. Acbuy spreadsheet → acbuy spreadsheet)
     s = re.sub(r"(?i)\bacbuy spreadsheet\b", SEO_PRIMARY_KEYWORD, s)
     return s

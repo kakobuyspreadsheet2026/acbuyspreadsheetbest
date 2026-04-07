@@ -1,5 +1,5 @@
-# https://acbuyai.com/
+# https://acbuyspreadsheetbest.com/
 User-agent: *
 Allow: /
 
-Sitemap: https://acbuyai.com/sitemap.xml
+Sitemap: https://acbuyspreadsheetbest.com/sitemap.xml

@@ -28,15 +28,15 @@ PAGES = [
     "acbuy-spreadsheet-dead-links.html",
 ]
 
-# Longest first — full acbuyai URLs that appear in EN sources (avoid breaking already-localized links)
+# Longest first — full acbuyspreadsheetbest URLs that appear in EN sources (avoid breaking already-localized links)
 FULL_ACBUY_URLS: tuple[str, ...] = (
-    "https://acbuyai.com/acbuy-spreadsheet-shipping-weight.html",
-    "https://acbuyai.com/acbuy-spreadsheet-dead-links.html",
-    "https://acbuyai.com/acbuy-spreadsheet-qc.html",
-    "https://acbuyai.com/spreadsheet.html",
-    "https://acbuyai.com/contact.html",
-    "https://acbuyai.com/news.html",
-    "https://acbuyai.com/guides.html",
+    "https://acbuyspreadsheetbest.com/acbuy-spreadsheet-shipping-weight.html",
+    "https://acbuyspreadsheetbest.com/acbuy-spreadsheet-dead-links.html",
+    "https://acbuyspreadsheetbest.com/acbuy-spreadsheet-qc.html",
+    "https://acbuyspreadsheetbest.com/spreadsheet.html",
+    "https://acbuyspreadsheetbest.com/contact.html",
+    "https://acbuyspreadsheetbest.com/news.html",
+    "https://acbuyspreadsheetbest.com/guides.html",
 )
 
 # Shared DE chrome (body copy stays English; nav/chrome only)
@@ -54,7 +54,7 @@ DE_CHROME: tuple[tuple[str, str], ...] = (
 
 
 def hreflang_block(basename: str) -> str:
-    base = "https://acbuyai.com"
+    base = "https://acbuyspreadsheetbest.com"
     if basename == "index.html":
         paths = {
             "en": "/",
@@ -149,17 +149,17 @@ def mechanical_subpage(html: str, lang: str, basename: str) -> str:
 
 
 def localize_acbuy_urls(html: str, lang: str) -> str:
-    """After hreflang swap: replace EN acbuyai URLs with /{lang}/… versions."""
+    """After hreflang swap: replace EN acbuyspreadsheetbest URLs with /{lang}/… versions."""
     if lang == "en":
         return html
     for url in FULL_ACBUY_URLS:
         if url not in html:
             continue
-        tail = url.replace("https://acbuyai.com/", "")
-        loc = f"https://acbuyai.com/{lang}/{tail}"
+        tail = url.replace("https://acbuyspreadsheetbest.com/", "")
+        loc = f"https://acbuyspreadsheetbest.com/{lang}/{tail}"
         html = html.replace(url, loc)
-    html = html.replace('"https://acbuyai.com/"', f'"https://acbuyai.com/{lang}/"')
-    html = html.replace("'https://acbuyai.com/'", f"'https://acbuyai.com/{lang}/'")
+    html = html.replace('"https://acbuyspreadsheetbest.com/"', f'"https://acbuyspreadsheetbest.com/{lang}/"')
+    html = html.replace("'https://acbuyspreadsheetbest.com/'", f"'https://acbuyspreadsheetbest.com/{lang}/'")
     return html
 
 
