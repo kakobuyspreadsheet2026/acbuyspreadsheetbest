@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/pl/index.html", "destination": "/pl/", "permanent": true },
+    { "source": "/pt/index.html", "destination": "/pt/", "permanent": true },
+    { "source": "/es/index.html", "destination": "/es/", "permanent": true },
+    { "source": "/de/index.html", "destination": "/de/", "permanent": true }
+  ]
+}

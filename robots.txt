@@ -1,0 +1,5 @@
+# https://acbuyai.com/
+User-agent: *
+Allow: /
+
+Sitemap: https://acbuyai.com/sitemap.xml
