@@ -47,7 +47,7 @@ ALL_PAGES = [
 LANG_MAP = {"de": "de", "es": "es", "pt": "pt", "pl": "pl"}
 
 # Exact query-shaped phrase for SEO (unchanged in localized pages; MT must not translate it).
-SEO_PRIMARY_KEYWORD = "acbuy spreadsheet"
+SEO_PRIMARY_KEYWORD = "ACBuy Spreadsheet"
 
 # Longest first — protect before MT
 PROTECT_TERMS: tuple[tuple[str, str], ...] = (
@@ -148,7 +148,7 @@ def repair_protected_tokens(s: str) -> str:
 
     s = _PUA_PAIR.sub(repl, s)
     # Closing U+E001 lost before tag end (seen pl/news h1)
-    s = re.sub(r"\uE000acbuy spreadsheet(?!\uE001)", SEO_PRIMARY_KEYWORD, s)
+    s = re.sub(r"\uE000ACBuy Spreadsheet(?!\uE001)", SEO_PRIMARY_KEYWORD, s)
     # Broken pair: space before translated tail (closing U+E001 lost; seen in pl meta)
     s = re.sub(r"\uE000ACBUYSS(\s+)", SEO_PRIMARY_KEYWORD + r"\1", s)
     # Bare leaked token from partial MT
@@ -157,13 +157,13 @@ def repair_protected_tokens(s: str) -> str:
     s = re.sub(r'(?i)\balt="kupić"', 'alt="acbuy"', s)
     s = re.sub(r">Acbuyai<", ">acbuyspreadsheetbest<", s)
     s = s.replace('"Acbuyai"', '"acbuyspreadsheetbest"')
-    # MT turned "acbuy spreadsheet rhythm" into bogus Polish noun in quotes
+    # MT turned "ACBuy Spreadsheet rhythm" into bogus Polish noun in quotes
     s = s.replace("\u201eAKUPOWANIA\u201d", "\u201e" + SEO_PRIMARY_KEYWORD + "\u201d")
     # Glued word after MT (pl news title)
     s = s.replace("spreadsheetaktualności", "spreadsheet aktualności")
     s = re.sub(r"\bAcbuyai\b", "acbuyspreadsheetbest", s)
-    # Normalize any casing drift of the two-word SEO phrase (e.g. Acbuy spreadsheet → acbuy spreadsheet)
-    s = re.sub(r"(?i)\bacbuy spreadsheet\b", SEO_PRIMARY_KEYWORD, s)
+    # Normalize any casing drift of the two-word SEO phrase (e.g. Acbuy spreadsheet → ACBuy Spreadsheet)
+    s = re.sub(r"(?i)\bACBuy Spreadsheet\b", SEO_PRIMARY_KEYWORD, s)
     return s
 
 

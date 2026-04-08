@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 SEO guardrail: every public HTML page must have exactly one <h1>, and that heading must
-contain the literal phrase "acbuy spreadsheet" exactly once (case-insensitive match).
+contain the literal phrase "ACBuy Spreadsheet" exactly once (case-insensitive match).
 
 Run after edits or locale builds:
 
@@ -16,7 +16,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
-KEYWORD_LOWER = "acbuy spreadsheet"
+KEYWORD_LOWER = "ACBuy Spreadsheet"
 SKIP_DIR_PARTS = frozenset({".venv", "node_modules"})
 
 

@@ -24,10 +24,10 @@ ROOT = Path(__file__).resolve().parent
 _EN_FAQ: list[tuple[str, str]] = [
     (
         "How many products are in the hub?",
-        "The acbuy spreadsheet hub on MaisonLooks currently surfaces 60,000+ products in curated rows—numbers move as listings are added, merged, or retired.",
+        "The ACBuy Spreadsheet hub on MaisonLooks currently surfaces 60,000+ products in curated rows—numbers move as listings are added, merged, or retired.",
     ),
     (
-        'Is this the "official" acbuy spreadsheet?',
+        'Is this the "official" ACBuy Spreadsheet?',
         "It is official to our merchant crew, not to ACBuy HQ branding. Policies, coupons, and account safety always come from ACBuy channels.",
     ),
     (
@@ -36,7 +36,7 @@ _EN_FAQ: list[tuple[str, str]] = [
     ),
     (
         "How often do rows refresh?",
-        "High-churn categories (sneakers, tech) can update weekly; long-tail items may sit longer. Watch News for sweep announcements that affect the acbuy spreadsheet.",
+        "High-churn categories (sneakers, tech) can update weekly; long-tail items may sit longer. Watch News for sweep announcements that affect the ACBuy Spreadsheet.",
     ),
     (
         "What if two rows list the same URL?",
@@ -56,7 +56,7 @@ _EN_FAQ: list[tuple[str, str]] = [
     ),
     (
         "Where is the live catalog?",
-        "Jump from the acbuy spreadsheet shortcut (spreadsheet.html on this site) straight into the hub with tracking parameters intact.",
+        "Jump from the ACBuy Spreadsheet shortcut (spreadsheet.html on this site) straight into the hub with tracking parameters intact.",
     ),
 ]
 
@@ -66,7 +66,7 @@ _DE_FAQ: list[tuple[str, str]] = [
         "Der acbuy-spreadsheet-Hub auf MaisonLooks zeigt aktuell 60.000+ Produkte in kuratierten Zeilen—Zahlen ändern sich mit Angeboten.",
     ),
     (
-        "Ist das das „offizielle“ acbuy spreadsheet?",
+        "Ist das das „offizielle“ ACBuy Spreadsheet?",
         "Offiziell für unser Händlerteam, nicht für ACBuy-HQ-Marketing. Richtlinien, Coupons und Kontosicherheit kommen immer von ACBuy.",
     ),
     (
@@ -75,7 +75,7 @@ _DE_FAQ: list[tuple[str, str]] = [
     ),
     (
         "Wie oft werden Zeilen aktualisiert?",
-        "Schnelle Kategorien (Sneaker, Tech) wöchentlich; Long-Tail länger. News für Ankündigungen lesen, die das acbuy spreadsheet betreffen.",
+        "Schnelle Kategorien (Sneaker, Tech) wöchentlich; Long-Tail länger. News für Ankündigungen lesen, die das ACBuy Spreadsheet betreffen.",
     ),
     (
         "Zwei Zeilen mit derselben URL?",
@@ -95,7 +95,7 @@ _DE_FAQ: list[tuple[str, str]] = [
     ),
     (
         "Wo ist der Live-Katalog?",
-        "Vom acbuy spreadsheet shortcut (spreadsheet.html auf dieser Site) direkt in den Hub mit Tracking-Parametern.",
+        "Vom ACBuy Spreadsheet shortcut (spreadsheet.html auf dieser Site) direkt in den Hub mit Tracking-Parametern.",
     ),
 ]
 
@@ -231,28 +231,28 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Shirts &amp; kits", "Shirts &amp; Kits"),
         ("Mixed / seasonal", "Gemischt / saisonal"),
         (
-            "acbuy spreadsheet 2026 | 60,000+ products — curated finds for ACBuy | acbuyspreadsheetbest.com",
-            "acbuy spreadsheet 2026 | 60.000+ Produkte — kuratierte Funde für ACBuy | acbuyspreadsheetbest.com",
+            "ACBuy Spreadsheet 2026 | 60,000+ products — curated finds for ACBuy | acbuyspreadsheetbest.com",
+            "ACBuy Spreadsheet 2026 | 60.000+ Produkte — kuratierte Funde für ACBuy | acbuyspreadsheetbest.com",
         ),
         (
-            "acbuy spreadsheet with 60,000+ products: merchant-curated Taobao, Weidian &amp; 1688 links and QC context—browse the hub on MaisonLooks, then pay and ship in your ACBuy account. Independent site, not ACBuy corporate.",
-            "acbuy spreadsheet mit 60.000+ Produkten: von Händlern kuratierte Taobao-, Weidian- und 1688-Links plus QC-Kontext—Hub auf MaisonLooks öffnen, dann in Ihrem ACBuy-Konto bezahlen und versenden. Unabhängige Seite, nicht ACBuy Konzern.",
+            "ACBuy Spreadsheet with 60,000+ products: merchant-curated Taobao, Weidian &amp; 1688 links and QC context—browse the hub on MaisonLooks, then pay and ship in your ACBuy account. Independent site, not ACBuy corporate.",
+            "ACBuy Spreadsheet mit 60.000+ Produkten: von Händlern kuratierte Taobao-, Weidian- und 1688-Links plus QC-Kontext—Hub auf MaisonLooks öffnen, dann in Ihrem ACBuy-Konto bezahlen und versenden. Unabhängige Seite, nicht ACBuy Konzern.",
         ),
         (
-            "acbuy spreadsheet 2026 | 60,000+ products for ACBuy buyers",
-            "acbuy spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer",
+            "ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers",
+            "ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer",
         ),
         (
             "60,000+ curated products: side-by-side batch comparison, stale-link flags, and category lanes—then paste into ACBuy when you are ready to order.",
             "60.000+ kuratierte Produkte: Batch-Vergleich, veraltete Links markiert, Kategorie-Spuren—dann in ACBuy einfügen, wenn Sie bestellen.",
         ),
         (
-            "60,000+ curated products—marketplace links and QC cues for acbuy spreadsheet shoppers using ACBuy.",
+            "60,000+ curated products—marketplace links and QC cues for ACBuy Spreadsheet shoppers using ACBuy.",
             "60.000+ kuratierte Produkte—Marktplatz-Links und QC-Hinweise für acbuy-spreadsheet-Nutzer mit ACBuy.",
         ),
         (
-            "Independent companion site for buyers who use an acbuy spreadsheet: 60,000+ curated products, QC context, and workflow notes—checkout occurs on ACBuy.",
-            "Begleitseite für Käufer mit acbuy spreadsheet: 60.000+ kuratierte Produkte, QC-Kontext und Workflow-Hinweise—Checkout in ACBuy.",
+            "Independent companion site for buyers who use an ACBuy Spreadsheet: 60,000+ curated products, QC context, and workflow notes—checkout occurs on ACBuy.",
+            "Begleitseite für Käufer mit ACBuy Spreadsheet: 60.000+ kuratierte Produkte, QC-Kontext und Workflow-Hinweise—Checkout in ACBuy.",
         ),
         ("aria-label=\"Primary\"", 'aria-label="Hauptnavigation"'),
         ("Categories", "Kategorien"),
@@ -261,14 +261,14 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("aria-label=\"Language selector\"", 'aria-label="Sprache"'),
         ('aria-label="Choose language"', 'aria-label="Sprache wählen"'),
         (
-            '<meta name="twitter:title" content="acbuy spreadsheet 2026 | 60,000+ products" />',
-            '<meta name="twitter:title" content="acbuy spreadsheet 2026 | 60.000+ Produkte" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60,000+ products" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60.000+ Produkte" />',
         ),
         ('aria-label="Homepage sections"', 'aria-label="Bereiche auf der Startseite"'),
         ("Shop smarter with side-by-side links", "Cleverer shoppen mit Links zum Vergleichen"),
         (
-            "2026 · acbuy spreadsheet · 60,000+ products · curated rows · QC cues · paste-to-ACBuy workflow",
-            "2026 · acbuy spreadsheet · 60.000+ Produkte · kuratierte Zeilen · QC-Hinweise · ACBuy-Workflow",
+            "2026 · ACBuy Spreadsheet · 60,000+ products · curated rows · QC cues · paste-to-ACBuy workflow",
+            "2026 · ACBuy Spreadsheet · 60.000+ Produkte · kuratierte Zeilen · QC-Hinweise · ACBuy-Workflow",
         ),
         ("ACBuy official", "ACBuy offiziell"),
         (
@@ -278,16 +278,16 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Batch &amp; note fields", "Batch- &amp; Notizfelder"),
         ("Warehouse QC still on ACBuy", "Lager-QC bleibt bei ACBuy"),
         (
-            "Think of the <strong>acbuy spreadsheet</strong> as a filter on noisy marketplace search: the hub lists\n            <strong>60,000+ products</strong> in rotating rows—tightened, tagged, and occasionally refreshed when sellers\n            swap batches. We surface context so you can shortlist faster—then you paste the winning URL into\n            <strong>ACBuy</strong> for payment, inspection, and shipping. Nothing on acbuyspreadsheetbest.com replaces your ACBuy\n            wallet or tickets.",
-            "Das <strong>acbuy spreadsheet</strong> filtert lauten Marktplatz-Suchlärm: Der Hub listet <strong>60.000+ Produkte</strong> in rotierenden Zeilen—gestrafft, getaggt, gelegentlich aktualisiert, wenn Verkäufer Batches wechseln. Wir liefern Kontext für eine schnellere Vorauswahl—dann fügen Sie die gewählte URL in <strong>ACBuy</strong> für Zahlung, Inspektion und Versand ein. Nichts auf acbuyspreadsheetbest.com ersetzt Ihr ACBuy-Wallet oder Tickets.",
+            "Think of the <strong>ACBuy Spreadsheet</strong> as a filter on noisy marketplace search: the hub lists\n            <strong>60,000+ products</strong> in rotating rows—tightened, tagged, and occasionally refreshed when sellers\n            swap batches. We surface context so you can shortlist faster—then you paste the winning URL into\n            <strong>ACBuy</strong> for payment, inspection, and shipping. Nothing on acbuyspreadsheetbest.com replaces your ACBuy\n            wallet or tickets.",
+            "Das <strong>ACBuy Spreadsheet</strong> filtert lauten Marktplatz-Suchlärm: Der Hub listet <strong>60.000+ Produkte</strong> in rotierenden Zeilen—gestrafft, getaggt, gelegentlich aktualisiert, wenn Verkäufer Batches wechseln. Wir liefern Kontext für eine schnellere Vorauswahl—dann fügen Sie die gewählte URL in <strong>ACBuy</strong> für Zahlung, Inspektion und Versand ein. Nichts auf acbuyspreadsheetbest.com ersetzt Ihr ACBuy-Wallet oder Tickets.",
         ),
         (
-            "Disclosure: acbuyspreadsheetbest.com is an independent marketing front for our acbuy spreadsheet—not ACBuy corporate.",
-            "Hinweis: acbuyspreadsheetbest.com ist ein unabhängiges Marketing-Frontend für unser acbuy spreadsheet—nicht ACBuy Konzern.",
+            "Disclosure: acbuyspreadsheetbest.com is an independent marketing front for our ACBuy Spreadsheet—not ACBuy corporate.",
+            "Hinweis: acbuyspreadsheetbest.com ist ein unabhängiges Marketing-Frontend für unser ACBuy Spreadsheet—nicht ACBuy Konzern.",
         ),
         ("Snapshot", "Kurzüberblick"),
         ("Lanes", "Spuren"),
-        ("What is the acbuy spreadsheet here?", "Was ist das acbuy spreadsheet hier?"),
+        ("What is the ACBuy Spreadsheet here?", "Was ist das ACBuy Spreadsheet hier?"),
         (
             "It is a <strong>merchant-maintained link table</strong> with <strong>60,000+ products</strong> for people\n              who already use or want to try <strong>ACBuy</strong>: each row usually combines a marketplace URL, price\n              context, and optional QC snapshots so you can compare sellers without opening fifteen Taobao tabs.",
             "Es ist eine <strong>von Händlern gepflegte Link-Tabelle</strong> mit <strong>60.000+ Produkten</strong> für alle, die <strong>ACBuy</strong> schon nutzen oder testen wollen: Jede Zeile verbindet meist Marktplatz-URL, Preiskontext und optionale QC-Schnappschüsse—so vergleichen Sie Verkäufer ohne fünfzehn Taobao-Tabs.",
@@ -303,8 +303,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("<strong>Why bookmark?</strong> Faster discovery + fewer dead links.", "<strong>Warum merken?</strong> Schneller finden + weniger tote Links."),
         ("Jump in by category—not by random search tabs", "Einstieg über Kategorien—nicht über zufällige Such-Tabs"),
         (
-            "Pick a lane that matches what you are hunting, skim comparable listings, then carry only the strongest URL\n            into ACBuy. That is the acbuy spreadsheet rhythm: <strong>narrow first, paste second</strong>.",
-            "Wählen Sie eine Spur passend zur Suche, vergleichen Sie Listings, nehmen Sie nur die stärkste URL mit nach ACBuy. So klingt acbuy spreadsheet: <strong>zuerst eingrenzen, dann einfügen</strong>.",
+            "Pick a lane that matches what you are hunting, skim comparable listings, then carry only the strongest URL\n            into ACBuy. That is the ACBuy Spreadsheet rhythm: <strong>narrow first, paste second</strong>.",
+            "Wählen Sie eine Spur passend zur Suche, vergleichen Sie Listings, nehmen Sie nur die stärkste URL mit nach ACBuy. So klingt ACBuy Spreadsheet: <strong>zuerst eingrenzen, dann einfügen</strong>.",
         ),
         ("Why lanes beat keyword roulette", "Warum Spuren besser sind als Keyword-Roulette"),
         (
@@ -317,8 +317,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "Markieren Sie zwei oder drei Favoriten, vergleichen Sie Notizen, öffnen Sie ACBuy im zweiten Tab. Wirkt eine Zeile alt, prüfen Sie den Link vor Inlandsversand.",
         ),
         (
-            "Lanes rotate as inventory shifts—if something disappears, check News or Guides for dead-link notes on the\n          <strong>acbuy spreadsheet</strong> before you assume a batch is gone forever.",
-            "Spuren rotieren mit dem Bestand—verschwindet etwas, lesen Sie in News oder Anleitungen Hinweise zu toten Links im <strong>acbuy spreadsheet</strong>, bevor Sie glauben, ein Batch sei weg.",
+            "Lanes rotate as inventory shifts—if something disappears, check News or Guides for dead-link notes on the\n          <strong>ACBuy Spreadsheet</strong> before you assume a batch is gone forever.",
+            "Spuren rotieren mit dem Bestand—verschwindet etwas, lesen Sie in News oder Anleitungen Hinweise zu toten Links im <strong>ACBuy Spreadsheet</strong>, bevor Sie glauben, ein Batch sei weg.",
         ),
         ("Where most people start", "Wo die meisten starten"),
         (
@@ -326,14 +326,14 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "Schuhe und Oberbekleidung haben den meisten Traffic, dann Taschen und Accessoires. Parfüm und Elektronik: Batterie- und Flüssigkeitsregeln prüfen—ACBuys Verbotsliste vor Forwarder-Wahl lesen.",
         ),
         ("Inside the hub—not inside your wallet", "Im Hub—nicht in Ihrer Wallet"),
-        ("acbuy spreadsheet hub →", "acbuy spreadsheet-Hub →"),
+        ("ACBuy Spreadsheet hub →", "ACBuy Spreadsheet-Hub →"),
         (
-            "At <strong>60,000+ products</strong> and counting, <strong>acbuy spreadsheet</strong> rows blend\n            <strong>Taobao, Weidian, and 1688</strong> listings with human notes: think of it as a live notebook that\n            tracks price drift, seller quirks, and QC references when buyers share them.",
-            "Bei <strong>60.000+ Produkten</strong> und steigend verbinden <strong>acbuy spreadsheet</strong>-Zeilen <strong>Taobao, Weidian und 1688</strong> mit menschlichen Notizen: ein lebendes Notizbuch zu Preisdrift, Verkäufer-Eigenheiten und QC-Hinweisen aus der Community.",
+            "At <strong>60,000+ products</strong> and counting, <strong>ACBuy Spreadsheet</strong> rows blend\n            <strong>Taobao, Weidian, and 1688</strong> listings with human notes: think of it as a live notebook that\n            tracks price drift, seller quirks, and QC references when buyers share them.",
+            "Bei <strong>60.000+ Produkten</strong> und steigend verbinden <strong>ACBuy Spreadsheet</strong>-Zeilen <strong>Taobao, Weidian und 1688</strong> mit menschlichen Notizen: ein lebendes Notizbuch zu Preisdrift, Verkäufer-Eigenheiten und QC-Hinweisen aus der Community.",
         ),
         (
-            "<strong>ACBuy</strong> still owns the purchase path—domestic freight, warehouse photos, rehearsal, and\n            international labels all live in your account. On acbuyspreadsheetbest.com we layer <strong>acbuy spreadsheet</strong>\n            context; on ACBuy you pay, rehearse, and ship.",
-            "<strong>ACBuy</strong> führt den Kaufweg—Inlandsfracht, Lagerfotos, Rehearsal und internationale Labels liegen in Ihrem Konto. Auf acbuyspreadsheetbest.com liefern wir <strong>acbuy spreadsheet</strong>-Kontext; in ACBuy zahlen Sie, proben und versenden.",
+            "<strong>ACBuy</strong> still owns the purchase path—domestic freight, warehouse photos, rehearsal, and\n            international labels all live in your account. On acbuyspreadsheetbest.com we layer <strong>ACBuy Spreadsheet</strong>\n            context; on ACBuy you pay, rehearse, and ship.",
+            "<strong>ACBuy</strong> führt den Kaufweg—Inlandsfracht, Lagerfotos, Rehearsal und internationale Labels liegen in Ihrem Konto. Auf acbuyspreadsheetbest.com liefern wir <strong>ACBuy Spreadsheet</strong>-Kontext; in ACBuy zahlen Sie, proben und versenden.",
         ),
         ("Fields you will commonly see", "Felder, die Sie oft sehen"),
         ("Plain-language title + link integrity check", "Klartitel + Link-Integrität"),
@@ -358,8 +358,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Periodic sweeps for broken storefronts", "Regelmäßige Säuberung kaputter Shops"),
         ("Discovery without algorithm noise", "Entdeckung ohne Algorithmus-Lärm"),
         (
-            "Marketplace search feeds change hourly; the acbuy spreadsheet is edited by people who actually pack boxes.",
-            "Marktplatz-Feeds ändern sich stündlich; das acbuy spreadsheet pflegen Menschen, die wirklich Pakete packen.",
+            "Marketplace search feeds change hourly; the ACBuy Spreadsheet is edited by people who actually pack boxes.",
+            "Marktplatz-Feeds ändern sich stündlich; das ACBuy Spreadsheet pflegen Menschen, die wirklich Pakete packen.",
         ),
         ("Human-written blurbs, not auto-translate spam", "Menschliche Texte, kein Auto-Translate-Spam"),
         ("Signals when a colorway is trending again", "Signale, wenn eine Colorway wieder trendet"),
@@ -377,7 +377,7 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Encouragement to read warehouse photos cold", "Bitte Lagerfotos nüchtern lesen"),
         ("Reminders that duties are yours to research", "Erinnerung: Zoll recherchieren Sie selbst"),
         ("No secret handshake—just a disciplined loop from bookmark to mailbox:", "Kein Geheimhandshake—nur eine disziplinierte Schleife vom Lesezeichen bis zum Postfach:"),
-        ("① Shortlist in the acbuy spreadsheet hub", "① Vorauswahl im acbuy spreadsheet-Hub"),
+        ("① Shortlist in the ACBuy Spreadsheet hub", "① Vorauswahl im ACBuy Spreadsheet-Hub"),
         (
             "Filter a lane, open rows that match your size/colorway, and save two backups in case links die overnight.",
             "Spur filtern, passende Zeilen öffnen, zwei Backups merken für den Fall, dass Links über Nacht sterben.",
@@ -405,15 +405,15 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Agent stack reminder", "Erinnerung: Agenten-Stack"),
         (
             "<strong>Note:</strong> ACBuy (and peers like it) exist because most global cards cannot check out on Chinese\n            marketplaces directly. Budget for agent service fees, photography packs, and possible returns—the acbuy\n            spreadsheet only gets you to the starting line.",
-            "<strong>Hinweis:</strong> ACBuy (und ähnliche) existieren, weil die meisten globalen Karten nicht direkt auf chinesischen Marktplätzen zahlen können. Planen Sie Agenten-Gebühren, Foto-Pakete und mögliche Retouren—das acbuy spreadsheet bringt Sie nur an die Startlinie.",
+            "<strong>Hinweis:</strong> ACBuy (und ähnliche) existieren, weil die meisten globalen Karten nicht direkt auf chinesischen Marktplätzen zahlen können. Planen Sie Agenten-Gebühren, Foto-Pakete und mögliche Retouren—das ACBuy Spreadsheet bringt Sie nur an die Startlinie.",
         ),
         ("Still stuck? Start with Guides or ping us on Discord.", "Noch hängen? Anleitungen lesen oder auf Discord melden."),
         ("How many products are in the hub?", "Wie viele Produkte hat der Hub?"),
         (
-            "The acbuy spreadsheet hub on MaisonLooks currently surfaces <strong>60,000+ products</strong> in curated\n              rows—numbers move as listings are added, merged, or retired.",
+            "The ACBuy Spreadsheet hub on MaisonLooks currently surfaces <strong>60,000+ products</strong> in curated\n              rows—numbers move as listings are added, merged, or retired.",
             "Der acbuy-spreadsheet-Hub auf MaisonLooks zeigt aktuell <strong>60.000+ Produkte</strong> in kuratierten Zeilen—Zahlen ändern sich mit Angeboten.",
         ),
-        ("Is this the “official” acbuy spreadsheet?", "Ist das das „offizielle“ acbuy spreadsheet?"),
+        ("Is this the “official” ACBuy Spreadsheet?", "Ist das das „offizielle“ ACBuy Spreadsheet?"),
         (
             "It is official to <em>our</em> merchant crew, not to ACBuy HQ branding. Policies, coupons, and account\n              safety always come from ACBuy channels.",
             "Offiziell für <em>unser</em> Händlerteam, nicht für ACBuy-HQ-Marketing. Richtlinien, Coupons und Kontosicherheit kommen immer von ACBuy.",
@@ -425,8 +425,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ),
         ("How often do rows refresh?", "Wie oft werden Zeilen aktualisiert?"),
         (
-            "High-churn categories (sneakers, tech) can update weekly; long-tail items may sit longer. Watch News for\n              sweep announcements that affect the <strong>acbuy spreadsheet</strong>.",
-            "Schnelle Kategorien (Sneaker, Tech) wöchentlich; Long-Tail länger. News für Ankündigungen lesen, die das <strong>acbuy spreadsheet</strong> betreffen.",
+            "High-churn categories (sneakers, tech) can update weekly; long-tail items may sit longer. Watch News for\n              sweep announcements that affect the <strong>ACBuy Spreadsheet</strong>.",
+            "Schnelle Kategorien (Sneaker, Tech) wöchentlich; Long-Tail länger. News für Ankündigungen lesen, die das <strong>ACBuy Spreadsheet</strong> betreffen.",
         ),
         ("What if two rows list the same URL?", "Zwei Zeilen mit derselben URL?"),
         (
@@ -450,24 +450,24 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ),
         ("Where is the live catalog?", "Wo ist der Live-Katalog?"),
         (
-            "Jump from the\n              <a href=\"spreadsheet.html\">acbuy spreadsheet shortcut</a>\n              straight into the hub with tracking parameters intact.",
-            "Von\n              <a href=\"spreadsheet.html\">acbuy spreadsheet shortcut</a>\n              direkt in den Hub mit Tracking-Parametern.",
+            "Jump from the\n              <a href=\"spreadsheet.html\">ACBuy Spreadsheet shortcut</a>\n              straight into the hub with tracking parameters intact.",
+            "Von\n              <a href=\"spreadsheet.html\">ACBuy Spreadsheet shortcut</a>\n              direkt in den Hub mit Tracking-Parametern.",
         ),
         ("Ready when you are", "Bereit, wenn Sie es sind"),
         (
-            "Grab your ACBuy login, open the MaisonLooks hub behind the <strong>acbuy spreadsheet</strong>, and bring back\n            a link you actually trust—then let warehouse QC do the final say-so.",
-            "ACBuy-Login, MaisonLooks-Hub hinter dem <strong>acbuy spreadsheet</strong> öffnen, einen Link mitbringen, dem Sie vertrauen—dann entscheidet das Lager-QC.",
+            "Grab your ACBuy login, open the MaisonLooks hub behind the <strong>ACBuy Spreadsheet</strong>, and bring back\n            a link you actually trust—then let warehouse QC do the final say-so.",
+            "ACBuy-Login, MaisonLooks-Hub hinter dem <strong>ACBuy Spreadsheet</strong> öffnen, einen Link mitbringen, dem Sie vertrauen—dann entscheidet das Lager-QC.",
         ),
         (
-            "acbuyspreadsheetbest.com publishes field notes, lane links, and QC explainers for shoppers who rely on an\n            <strong>acbuy spreadsheet</strong> (hub: <strong>60,000+ products</strong>). We do not sell inventory, store\n            balances, or speak for ACBuy corporate policies.",
-            "acbuyspreadsheetbest.com veröffentlicht Feldnotizen, Spur-Links und QC-Erklärungen für Nutzer eines <strong>acbuy spreadsheet</strong> (Hub: <strong>60.000+ Produkte</strong>). Wir verkaufen kein Inventar, halten keine Guthaben und sprechen nicht für ACBuy-Konzernrichtlinien.",
+            "acbuyspreadsheetbest.com publishes field notes, lane links, and QC explainers for shoppers who rely on an\n            <strong>ACBuy Spreadsheet</strong> (hub: <strong>60,000+ products</strong>). We do not sell inventory, store\n            balances, or speak for ACBuy corporate policies.",
+            "acbuyspreadsheetbest.com veröffentlicht Feldnotizen, Spur-Links und QC-Erklärungen für Nutzer eines <strong>ACBuy Spreadsheet</strong> (Hub: <strong>60.000+ Produkte</strong>). Wir verkaufen kein Inventar, halten keine Guthaben und sprechen nicht für ACBuy-Konzernrichtlinien.",
         ),
         (
             "<strong>You are responsible for import rules, duties, and final purchase decisions.</strong> When in doubt,\n            screenshot warehouse photos and open a ticket inside ACBuy.",
             "<strong>Sie sind für Importregeln, Zölle und Kaufentscheidungen verantwortlich.</strong> Im Zweifel: Lagerfotos sichern und Ticket in ACBuy.",
         ),
-        ("· acbuy spreadsheet merchants · all rights reserved", "· acbuy spreadsheet Händler · alle Rechte vorbehalten"),
-        ("acbuy spreadsheet hub", "acbuy spreadsheet-Hub"),
+        ("· ACBuy Spreadsheet merchants · all rights reserved", "· ACBuy Spreadsheet Händler · alle Rechte vorbehalten"),
+        ("ACBuy Spreadsheet hub", "ACBuy Spreadsheet-Hub"),
     ],
 }
 
