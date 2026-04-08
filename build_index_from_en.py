@@ -239,8 +239,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
             "ACBuy Spreadsheet mit 60.000+ Produkten: von Händlern kuratierte Taobao-, Weidian- und 1688-Links plus QC-Kontext—Hub auf MaisonLooks öffnen, dann in Ihrem ACBuy-Konto bezahlen und versenden. Unabhängige Seite, nicht ACBuy Konzern.",
         ),
         (
-            "ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers",
-            "ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer",
+            "ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers | acbuyspreadsheetbest.com",
+            "ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer | acbuyspreadsheetbest.com",
         ),
         (
             "60,000+ curated products: side-by-side batch comparison, stale-link flags, and category lanes—then paste into ACBuy when you are ready to order.",
@@ -261,8 +261,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("aria-label=\"Language selector\"", 'aria-label="Sprache"'),
         ('aria-label="Choose language"', 'aria-label="Sprache wählen"'),
         (
-            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60,000+ products" />',
-            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60.000+ Produkte" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60,000+ products | acbuyspreadsheetbest.com" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60.000+ Produkte | acbuyspreadsheetbest.com" />',
         ),
         ('aria-label="Homepage sections"', 'aria-label="Bereiche auf der Startseite"'),
         ("Shop smarter with side-by-side links", "Cleverer shoppen mit Links zum Vergleichen"),
