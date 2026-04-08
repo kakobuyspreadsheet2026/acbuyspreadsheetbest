@@ -231,16 +231,12 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("Shirts &amp; kits", "Shirts &amp; Kits"),
         ("Mixed / seasonal", "Gemischt / saisonal"),
         (
-            "ACBuy Spreadsheet 2026 | 60,000+ products — curated finds for ACBuy | acbuyspreadsheetbest.com",
-            "ACBuy Spreadsheet 2026 | 60.000+ Produkte — kuratierte Funde für ACBuy | acbuyspreadsheetbest.com",
+            "ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers | acbuyspreadsheetbest.com",
+            "ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer | acbuyspreadsheetbest.com",
         ),
         (
             "ACBuy Spreadsheet with 60,000+ products: merchant-curated Taobao, Weidian &amp; 1688 links and QC context—browse the hub on MaisonLooks, then pay and ship in your ACBuy account. Independent site, not ACBuy corporate.",
             "ACBuy Spreadsheet mit 60.000+ Produkten: von Händlern kuratierte Taobao-, Weidian- und 1688-Links plus QC-Kontext—Hub auf MaisonLooks öffnen, dann in Ihrem ACBuy-Konto bezahlen und versenden. Unabhängige Seite, nicht ACBuy Konzern.",
-        ),
-        (
-            "ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers | acbuyspreadsheetbest.com",
-            "ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer | acbuyspreadsheetbest.com",
         ),
         (
             "60,000+ curated products: side-by-side batch comparison, stale-link flags, and category lanes—then paste into ACBuy when you are ready to order.",
@@ -261,8 +257,8 @@ PAIRS: dict[str, list[tuple[str, str]]] = {
         ("aria-label=\"Language selector\"", 'aria-label="Sprache"'),
         ('aria-label="Choose language"', 'aria-label="Sprache wählen"'),
         (
-            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60,000+ products | acbuyspreadsheetbest.com" />',
-            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60.000+ Produkte | acbuyspreadsheetbest.com" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60,000+ products for ACBuy buyers | acbuyspreadsheetbest.com" />',
+            '<meta name="twitter:title" content="ACBuy Spreadsheet 2026 | 60.000+ Produkte für ACBuy-Käufer | acbuyspreadsheetbest.com" />',
         ),
         ('aria-label="Homepage sections"', 'aria-label="Bereiche auf der Startseite"'),
         ("Shop smarter with side-by-side links", "Cleverer shoppen mit Links zum Vergleichen"),
